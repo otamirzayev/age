@@ -1,0 +1,125 @@
+/* poppins-700italic - latin */
+@font-face {
+    font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Poppins';
+    font-style: italic;
+    font-weight: 700;
+    src: url('../fonts/poppins-v20-latin-700italic.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+  }
+  /* poppins-800italic - latin */
+  @font-face {
+    font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Poppins';
+    font-style: italic;
+    font-weight: 800;
+    src: url('../fonts/poppins-v20-latin-800italic.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+  }
+
+  *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  .container{
+    width: 100%;
+    max-width: 1200px;
+    padding-left: 50px;
+    padding-right: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    
+  }
+
+  body{
+    font-family: 'Poppins';
+    background-color: lightgrey;
+  }
+
+  .card {
+    width: 840px;
+    height: 650px;
+    border-radius: 24px 24px 200px 24px;
+    padding: 56px;
+    background-color: #fff;
+  }
+  .form {
+    display: flex;
+    gap: 32px;
+  }
+  .form-text {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 21px;
+    color: #716F6F;
+  }
+  .input {
+    width: 160px;
+    height: 72px; 
+    border: 1px #DCDCDC solid;
+    border-radius: 8px;
+    text-align: center;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 48px;
+    color: #151515;
+  }
+
+  .input__error{
+    width: 160px;
+    height: 72px;
+    border: 1px red solid;
+    border-radius: 8px;
+    text-align: center;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 48px;
+  }
+
+  /* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type=number] {
+ -moz-appearance: textfield;
+}
+
+  .center {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+  }
+  .line { width: 632px;
+    height: 1px;
+    background-color: #DCDCDC;
+  }
+  .btn {
+    padding: 15px;
+    border-radius: 50%;
+    background-color: #854DFF;
+    border: none;
+  }
+  .btn:active{
+    background-color: #151515;
+  }
+  .content__inp-wrap {
+    display: flex ;
+    display: flex;
+    align-items: center;
+  }
+  .content__num {
+    margin-right: 8px;
+    font-weight: 800;
+    font-size: 104px;
+    line-height: 114px;
+    color: #854DFF;
+  }
+  .content__text {
+    font-weight: 800;
+    font-size: 104px;
+    line-height: 114px;
+
+  }

@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Age Calculator</title>
+    <link rel="stylesheet" href="./style/style.css"
+  </head>
+  <body>
+    <div class="container">
+      <div class="card">
+        <div class="upp__section">
+          <form class="form">
+            <div class="input__wrapper">
+              <p class="form-text">DAY</p>
+              <input class="input" id="day" type="number" placeholder="DD" />
+            </div>
+            <div class="input__wrapper">
+              <p class="form-text">MONTH</p>
+              <input class="input" id="month" type="number" placeholder="MM" />
+            </div>
+            <div class="input__wrapper">
+              <p class="form-text">YEAR</p>
+              <input class="input" id="year" type="number" placeholder="YY" />
+            </div>
+          </form>
+        </div>
+        <div class="center">
+          <div class="line"></div>
+          <button id="activBtn" class="btn">
+            <img src="./img/Frame 29.svg" alt="" width="60" height="60" />
+          </button>
+        </div>
+        <div class="content">
+          <div class="content__inp-wrap">
+            <span class="content__num" id="yearsLabel">--</span>
+            <h2 class="content__text">years</h2>
+          </div>
+          <br />
+          <div class="content__inp-wrap">
+            <span class="content__num" id="monthsLabel">--</span>
+            <h2 class="content__text">months</h2>
+          </div>
+          <br />
+          <div class="content__inp-wrap">
+            <span class="content__num" id="daysLabel">--</span>
+            <h2 class="content__text">days</h2>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="./js/app.js"></script>
+  </body>
+</html>
